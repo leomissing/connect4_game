@@ -93,7 +93,7 @@ class Game:
             self.add_token(column=(column - 1))
             self.check_win_cond()
             self.turn += 1
-        print("The winner is Player №", self.turn % 2 + 1)
+        print("The winner is Player №", self.turn % 2 )
         self.get_board()
 
 
